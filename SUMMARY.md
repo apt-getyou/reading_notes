@@ -1,4 +1,6 @@
 # Summary
 
 * [目录](README.md)
-* [sublime](zh_cn/sublime_text3_config.md)
+* 杂记
+  - [1. sublime text3 个人配置](zh_cn/sublime_text3_config.md)
+  
