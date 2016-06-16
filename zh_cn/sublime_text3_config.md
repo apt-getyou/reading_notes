@@ -33,27 +33,26 @@
 - ### 插件列表
 
   * ##### snippets  
-    使用说明： sublime Text3 自带，可根据自己的需要进行添加对应开发语言的snippets，加快编码速度  
+    - 使用说明： sublime Text3 自带，可根据自己的需要进行添加对应开发语言的snippets，加快编码速度  
 
   * ##### insert callback
-    使用说明
-    ```
-    About
-    Inserts a node-style JavaScript callback function, and ensures that the call's trailing semicolon is inserted.
+    - 使用说明  
+      About
+      Inserts a node-style JavaScript callback function, and ensures that the call's trailing semicolon is inserted.  
 
-    Example
-    Type a function call. When you type (, Sublime will autofill the closing ), and your cursor will be between the parens.
+      Example  
+      Type a function call. When you type (, Sublime will autofill the closing ), and your cursor will be between the parens.  
 
-    someAsyncFn()
-    Press Alt+C. If the function call's trailing semicolon is missing, it will be filled in. A callback function snippet will then be inserted.
+      someAsyncFn()  
+      Press Alt+C. If the function call's trailing semicolon is missing, it will be filled in. A callback function snippet will then be   inserted.  
 
-    someAsyncFn(function(err, d) {
+      someAsyncFn(function(err, d) {  
 
-    });
-    d will be selected for changing. Tab takes you to the function body.
+      });  
+      d will be selected for changing. Tab takes you to the function body.  
 
-    You can also select existing code and press Alt+C; the selected text will be inserted inside the new function body.
-    ```
+      You can also select existing code and press Alt+C; the selected text will be inserted inside the new function body.  
+
 
   * ##### advanceNewfile  [项目地址](https://github.com/skuroda/Sublime-AdvancedNewFile)
     - 使用说明  
