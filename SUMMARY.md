@@ -20,9 +20,8 @@ bui# Summary
 * 杂记
   - [sublime text3 个人配置](zh_cn/miscellanea/sublime_text3_config.md)
   - [Git flow 開發流程](zh_cn/miscellanea/git_flow.md)
-  - 树莓派  
-    - [买到树莓派后应该做什么](zh_cn/miscellanea/RaspberryPi/first.md)
+  - [买到树莓派后应该做什么](zh_cn/miscellanea/RaspberryPi/first.md)
 * 异想天开
-  - [未来道路规划]()
-  - [记账APP设计]()
-  - [个人VR图书馆]()
+  - [未来道路规划](zh_cn/imagine/1.md)
+  - [记账APP设计](zh_cn/imagine/2.md)
+  - [个人VR图书馆](zh_cn/imagine/3.md)
