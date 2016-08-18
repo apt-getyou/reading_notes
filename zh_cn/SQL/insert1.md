@@ -1,3 +1,5 @@
+## 如何在没有唯一约束的条件下实现不存在才插入
+
 ```SQL
 -- test table:    
 CREATE TABLE IF NOT EXISTS card (  

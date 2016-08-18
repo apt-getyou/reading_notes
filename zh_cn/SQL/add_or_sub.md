@@ -50,7 +50,7 @@ update 用户资金表 set 用户资金 = 150
   ```SQL
   update 用户资金表 set 用户资金 = 用户资金最终得数 where update_time = `time`
   ```
-  此时如果程序返回 0 ，即程序更新失败，`update_time !=time` , 则说明该数据已经被修改了，需要重新计算。
+  此时如果程序返回 0 ，即程序更新失败，`update_time !=time` , 说明该数据已经被修改了，需要重新计算。
 
 
 
