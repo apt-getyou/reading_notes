@@ -12,6 +12,7 @@ bui# Summary
   - NodeJs
     - [NodeJs安装](zh_cn/ProgramingLanguage/nodejs/nodejs.md)
     - [GitBook](zh_cn/ProgramingLanguage/nodejs/gitbook.md)
+    - [GitBook插件](zh_cn/ProgramingLanguage/nodejs/gitbook_plugin.md)
   - JAVA
     - [mybatis在xml文件中处理大于号小于号的方法](zh_cn/ProgramingLanguage/JAVA/mybatis1.md)
   - Markdown
