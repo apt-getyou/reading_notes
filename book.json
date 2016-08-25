@@ -10,13 +10,13 @@
 			"url": "https://github.com/apt-getyou"
 		},
 		"tbfed-pagefooter": {
-			"copyright":"Copyright &copy apt-getyou.com 2016",
+			"copyright":"Copyright &copy banhujiu.com 2016",
 			"modify_label": "该文件修订时间：",
 			"modify_format": "YYYY-MM-DD HH:mm:ss"
 		},
 		"donate": {
-			"wechat": "例：/images/qr.png",
-			"alipay": "http://blog.willin.wang/static/images/qr.png",
+			"wechat": "resources/image/WeChat.png",
+			"alipay": "resources/image/alipay.png",
 			"title": "",
 			"button": "赏金",
 			"alipayText": "支付宝捐赠",

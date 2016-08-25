@@ -22,6 +22,8 @@ bui# Summary
   - [sublime text3 个人配置](zh_cn/miscellanea/sublime_text3_config.md)
   - [Git flow 開發流程](zh_cn/miscellanea/git_flow.md)
   - [买到树莓派后应该做什么](zh_cn/miscellanea/RaspberryPi/first.md)
+  - [vagrant 部分问题解决方法](zh_cn/miscellanea/vagrant.md)
+  - [linux grub2引导项因Windows重装而被覆盖后的解决方法](zh_cn/miscellanea/win7_linux_grub2.md)
 * 异想天开
   - [未来道路规划](zh_cn/imagine/1.md)
   - [记账APP设计](zh_cn/imagine/2.md)
