@@ -3,7 +3,6 @@
 	"author" : "刘博文",
 	"description" : "记录读书笔记",
 	"language" : "zh-hans",
-	"gitbook":"2.x.x",
 	"plugins": [ "github" , "tbfed-pagefooter" , "donate" , "ace" ],
 	"pluginsConfig": {
 		"github": {
