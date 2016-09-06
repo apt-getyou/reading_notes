@@ -15,6 +15,7 @@ bui# Summary
     - [GitBook插件](zh_cn/ProgramingLanguage/nodejs/gitbook_plugin.md)
   - JAVA
     - [mybatis在xml文件中处理大于号小于号的方法](zh_cn/ProgramingLanguage/JAVA/mybatis1.md)
+    - [JSR 303 基本的校验规则](zh_cn\ProgramingLanguage\JAVA\jsr-303.md)
   - Markdown
     - [markdown简明教程](zh_cn/ProgramingLanguage/markdown/markdown.md)
     - [Cmd Markdown 编辑阅读器](zh_cn/ProgramingLanguage/markdown/Cmd Markdown.md)
