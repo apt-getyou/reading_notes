@@ -1,4 +1,4 @@
-bui# Summary
+# Summary
 
 * [目录](README.md)
 * 设计模式
@@ -8,6 +8,9 @@ bui# Summary
 * 数据库
   - [数据库加减技巧](zh_cn/SQL/add_or_sub.md)
   - [如何在没有唯一约束的条件下实现不存在才插入](zh_cn/SQL/insert1.md)
+  - [SQL批量更新方法以及效率](zh_cn/SQL/batchUpdate.md)
+* 服务器
+  - [nohub用法 - 不挂断地运行命令](zh_cn/Server/Linux/nohup.md)
 * 编程语言
   - NodeJs
     - [NodeJs安装](zh_cn/ProgramingLanguage/nodejs/nodejs.md)
