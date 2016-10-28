@@ -6,7 +6,7 @@
 
 比如我们要运行mysql在后台
 
-```bashe
+```bash
  /usr/local/mysql/bin/mysqld_safe –user=mysql &
 ```
 
@@ -45,5 +45,3 @@ tail -f nohup.out
 > 语法：
 >
 > 描述：`nohup `命令运行由 Command 参数和任何相关的 `Arg` 参数指定的命令，忽略所有挂断（SIGHUP）信号。在注销后使用 nohup 命令运行后台中的程序。要运行后台中的 nohup 命令，添加 & （ 表示”and”的符号）到命令的尾部。
-
-
