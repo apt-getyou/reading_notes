@@ -33,4 +33,4 @@
 * 异想天开
   - [未来道路规划](zh_cn/imagine/1.md)
   - [记账APP设计](zh_cn/imagine/2.md)
-  - [个人VR图书馆](zh_cn/imagine/3.md)
+  - [个人AR图书馆](zh_cn/imagine/3.md)

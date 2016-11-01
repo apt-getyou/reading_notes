@@ -1,4 +1,4 @@
-策略模式 (使用java说明)
+# 策略模式 (使用java说明)
 --
 [原文地址](http://www.cnblogs.com/java-my-life/archive/2012/05/10/2491891.html)  
 在阎宏博士的《JAVA与模式》一书中开头是这样描述策略（Strategy）模式的：

@@ -1,4 +1,4 @@
-## GitBook 简介
+# GitBook 简介
 
 GitBook 是一个通过 Git 和 Markdown 来撰写书籍的工具，最终可以生成 3 种格式：
 

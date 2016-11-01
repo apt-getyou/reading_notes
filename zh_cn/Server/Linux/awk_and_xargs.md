@@ -1,4 +1,4 @@
-#awk 和 xargs 的联合使用
+# awk 和 xargs 的联合使用
 
 - 目标
 

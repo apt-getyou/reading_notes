@@ -1,4 +1,4 @@
-#nohup 使用方法
+# nohup 使用方法
 
 [原文](http://www.cnblogs.com/allenblogs/archive/2011/05/19/2051136.html)  
 
