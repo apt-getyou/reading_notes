@@ -4,7 +4,7 @@
 	"description" : "记录读书笔记",
 	"language" : "zh-hans",
 	"gitbook":"2.x.x",
-	"plugins": [ "github" , "tbfed-pagefooter" , "donate" , "ace" ],
+	"plugins": [ "github" , "tbfed-pagefooter" , "donate" , "ace" , "rss"],
 	"pluginsConfig": {
 		"github": {
 			"url": "https://github.com/apt-getyou"
@@ -24,6 +24,20 @@
 		},
 		"ace":{
 			"theme":"monokai"
-		}
+		},
+		"rss": {
+		 "title": "My note",
+		 "description": "My note",
+		 "author": "apt-getyou",
+		 "site_url": "www.banhujiu.com",
+		 "feed_url":"www.banhujiu.com/rss",
+		 "managingEditor": "banhujiu@gmial.com",
+		 "webMaster": "banhujiu@gmial.com",
+		 "categories": [
+			 "awesome",
+			 "book",
+			 "gitbook"
+		 ]
+	 }
 	}
 }
