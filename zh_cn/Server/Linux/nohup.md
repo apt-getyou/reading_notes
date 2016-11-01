@@ -10,7 +10,7 @@
  /usr/local/mysql/bin/mysqld_safe –user=mysql &
 ```
 
-可是有很多程序并不想`mysqld`一样，这样我们就需要`nohup`命令，怎样使用`nohup`命令呢？这里讲解`nohup`命令的一些用法。
+可是有很多程序并不像`mysqld`一样，这样我们就需要`nohup`命令，怎样使用`nohup`命令呢？这里讲解`nohup`命令的一些用法。
 
 ```bash
 [~]# nohup /root/start.sh &
