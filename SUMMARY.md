@@ -11,6 +11,7 @@
   - [SQL批量更新方法以及效率](zh_cn/SQL/batchUpdate.md)
 * 服务器
   - [nohub用法 - 不挂断地运行命令](zh_cn/Server/Linux/nohup.md)
+  - [awk 和 xargs 的联合使用](zh_cn/Server/Linux/awk_and_xargs.md)
 * 编程语言
   - NodeJs
     - [NodeJs安装](zh_cn/ProgramingLanguage/nodejs/nodejs.md)
@@ -26,6 +27,7 @@
   - [sublime text3 个人配置](zh_cn/miscellanea/sublime_text3_config.md)
   - [Git flow 開發流程](zh_cn/miscellanea/git_flow.md)
   - [买到树莓派后应该做什么](zh_cn/miscellanea/RaspberryPi/first.md)
+  - [使用树莓派建立家庭NAS](zh_cn/miscellanea/RaspberryPi/nas.md)
   - [vagrant 部分问题解决方法](zh_cn/miscellanea/vagrant.md)
   - [linux grub2引导项因Windows重装而被覆盖后的解决方法](zh_cn/miscellanea/win7_linux_grub2.md)
 * 异想天开
