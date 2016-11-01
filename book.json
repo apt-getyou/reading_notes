@@ -30,7 +30,7 @@
 		 "description": "My note",
 		 "author": "apt-getyou",
 		 "site_url": "www.banhujiu.com",
-		 "feed_url":"www.banhujiu.com/rss.xml",
+		 "feed_url":"/rss.xml",
 		 "managingEditor": "banhujiu@gmial.com",
 		 "webMaster": "banhujiu@gmial.com",
 		 "categories": [
