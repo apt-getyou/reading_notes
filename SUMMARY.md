@@ -4,6 +4,7 @@
 * 设计模式
   - [策略模式](zh_cn/DesignPattern/Strategy.md)
 * 架构
+  - [个人框架构想](zh_cn/Framework/m.md)
   - [SSO(Single Sign On)](zh_cn/Framework/SSO.md)
 * 数据库
   - [数据库加减技巧](zh_cn/SQL/add_or_sub.md)
@@ -12,6 +13,7 @@
 * 服务器
   - [nohub用法 - 不挂断地运行命令](zh_cn/Server/Linux/nohup.md)
   - [awk 和 xargs 的联合使用](zh_cn/Server/Linux/awk_and_xargs.md)
+  - [Linux中rz和sz命令用法详解](zh_cn/Server/Linux/rz_and_sz.md)
 * 编程语言
   - NodeJs
     - [NodeJs安装](zh_cn/ProgramingLanguage/nodejs/nodejs.md)
