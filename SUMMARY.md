@@ -1,6 +1,6 @@
 # Summary
 
-* [目录](README.md)
+* [README](README.md)
 * 设计模式
   - [策略模式](zh_cn/DesignPattern/Strategy.md)
 * 架构
@@ -22,6 +22,7 @@
   - JAVA
     - [mybatis在xml文件中处理大于号小于号的方法](zh_cn/ProgramingLanguage/JAVA/mybatis1.md)
     - [JSR 303 基本的校验规则](zh_cn\ProgramingLanguage\JAVA\jsr-303.md)
+    - [Java中ArrayList循环遍历并删除元素的陷阱](zh_cn\ProgramingLanguage\JAVA\List_foreach.md)
   - Markdown
     - [markdown简明教程](zh_cn/ProgramingLanguage/markdown/markdown.md)
     - [Cmd Markdown 编辑阅读器](zh_cn/ProgramingLanguage/markdown/Cmd Markdown.md)
@@ -32,6 +33,8 @@
   - [使用树莓派建立家庭NAS](zh_cn/miscellanea/RaspberryPi/nas.md)
   - [vagrant 部分问题解决方法](zh_cn/miscellanea/vagrant.md)
   - [linux grub2引导项因Windows重装而被覆盖后的解决方法](zh_cn/miscellanea/win7_linux_grub2.md)
+  - [使用git rebase合并代码](zh_cn/miscellanea/git_rebase.md)
+  - [使用git rebase删除指定多个commit，实现错误代码剔除](zh_cn/miscellanea/git_rebase_i.md)
 * 异想天开
   - [未来道路规划](zh_cn/imagine/1.md)
   - [记账APP设计](zh_cn/imagine/2.md)

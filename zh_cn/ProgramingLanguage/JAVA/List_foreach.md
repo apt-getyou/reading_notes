@@ -1,0 +1,1 @@
+# Java中ArrayList循环遍历并删除元素的陷阱
