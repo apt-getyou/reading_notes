@@ -35,6 +35,7 @@
   - [linux grub2引导项因Windows重装而被覆盖后的解决方法](zh_cn/miscellanea/win7_linux_grub2.md)
   - [使用git rebase合并代码](zh_cn/miscellanea/git_rebase.md)
   - [使用git rebase删除指定多个commit，实现错误代码剔除](zh_cn/miscellanea/git_rebase_i.md)
+  - [软件版本周期](zh_cn/miscellanea/version.md)
 * 异想天开
   - [未来道路规划](zh_cn/imagine/1.md)
   - [记账APP设计](zh_cn/imagine/2.md)
