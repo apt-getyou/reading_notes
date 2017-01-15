@@ -27,14 +27,15 @@
     - [markdown简明教程](zh_cn/ProgramingLanguage/markdown/markdown.md)
     - [Cmd Markdown 编辑阅读器](zh_cn/ProgramingLanguage/markdown/Cmd Markdown.md)
 * 杂记
+  - git  
+    - [Git flow 開發流程](zh_cn/miscellanea/git/git_flow.md)  
+    - [使用git rebase合并代码](zh_cn/miscellanea/git/git_rebase.md)  
+    - [使用git rebase删除指定多个commit，实现错误代码剔除](zh_cn/miscellanea/git/git_rebase_i.md)  
   - [sublime text3 个人配置](zh_cn/miscellanea/sublime_text3_config.md)
-  - [Git flow 開發流程](zh_cn/miscellanea/git_flow.md)
   - [买到树莓派后应该做什么](zh_cn/miscellanea/RaspberryPi/first.md)
   - [使用树莓派建立家庭NAS](zh_cn/miscellanea/RaspberryPi/nas.md)
   - [vagrant 部分问题解决方法](zh_cn/miscellanea/vagrant.md)
   - [linux grub2引导项因Windows重装而被覆盖后的解决方法](zh_cn/miscellanea/win7_linux_grub2.md)
-  - [使用git rebase合并代码](zh_cn/miscellanea/git_rebase.md)
-  - [使用git rebase删除指定多个commit，实现错误代码剔除](zh_cn/miscellanea/git_rebase_i.md)
   - [软件版本周期](zh_cn/miscellanea/version.md)
   - [Win10系统右键添加Sublime Text 3的打开方式](zh_cn/miscellanea/add_sublime.md)
 * 异想天开
