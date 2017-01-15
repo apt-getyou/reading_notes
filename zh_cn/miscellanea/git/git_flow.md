@@ -1,11 +1,13 @@
 # Git flow 开发流程
 
+[git常用命令](http://www.ruanyifeng.com/blog/2015/12/git-cheat-sheet.html)
+
 大家都知道 Git 开 branch 很方便，非常鼓励 topic branch，但有没有一套模型流程告诉我们应该怎么管理 branch 呢? 有人便整理出一套最佳实践惯例 [A successful Git branching model](http://nvie.com/posts/a-successful-git-branching-model/)，。简单来说，他将 branch 分成两个主要分支，三种支援性分支：
 
 ![git flow模式 图解](/resources/image/git_flow.png)
 
 - 主要分支  
-  * master: 永远处在 production-ready 状态 
+  * master: 永远处在 production-ready 状态
   * develop: 最新的下次发布开发状态
 - 支援性分支
   * Feature branches: 开发新功能都从 develop 分支出来，完成后 merge 回 develop
