@@ -5,7 +5,7 @@
 ![git flow模式 图解](/resources/image/git_flow.png)
 
 - 主要分支  
-  * master: 永远处在 production-ready 状态
+  * master: 永远处在 production-ready 状态 
   * develop: 最新的下次发布开发状态
 - 支援性分支
   * Feature branches: 开发新功能都从 develop 分支出来，完成后 merge 回 develop
