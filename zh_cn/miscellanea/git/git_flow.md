@@ -22,6 +22,12 @@
   * Release branches: 预发布分支，release\_{version}。（[version 命名规范](../version.md) ）  
     eg : `release_v0.1Bate`
 
+- 远程分支处理  
+  由于团队开发中，经常需要多人合作开发Feature分支，或者develop分支普通开发人员无法更改而需要使用`merge request`功能，这些都需要向git服务器推送远程分支来解决，如此就导致同一个项目上存在过多的分支。  
+  在这种情况下就需要开发人员对分支进行管理，可以让开发人员之间选择是否删除远程分支，或者是由管理员统一管理。  
+  删除远程分支可以通过命令  `git push --delete origin branch_name` 实现。  
+  但执行这个命令后，虽然删除了远程分支，本地使用`git branch -a`也看不到这个分支了。但对于其他开发人员，他们使用`git branch -a`时还是可以看到这些本已经删除的分支(具体原因还不明确，可能是git自己的一个特性，或者就是个bug)。这时候可以通过执行`git remote prune origin`删除这些本已删除的分支。  
+  > 删除分支时必须谨慎，确保被删除的分支上的代码已经全部合并完成了
 
 - 关于 feature branch 的合并
 
