@@ -32,17 +32,15 @@
   > 删除分支时必须谨慎，确保被删除的分支上的代码已经全部合并完成了
 
 - 关于 feature branch 的合并
-
-    - 如果是开发时间比较久的 feature branch，很可能会因为  
-      1. 不定时的 `merge develop` 与新版同步  
-      2. 实验性质的修改  
-      3. 需求的变更
-      等等因素，而让这个 `feature branch` 的 commit 记录变成脏脏的
+    - 如果是开发时间比较久的 `feature branch`，很可能会因为  
+      1. 不定时的 `git merge origin/develop` 与新版同步  (除非是短期开发的功能，否则这个步骤无法避免，如果不去合并最新代码，在功能开发完成后去合并develop，会加大解决冲突的难度)  
+      2. 实验性质的修改  (即功能开发)  
+      3. 需求的变更  
+      有许多因素，让一个 `feature branch` 的 commit 记录变的异常的乱
     - 这时候我们会用以下的方式来做 merge 动作：  
-      1. 先对 feature branch 做 `git rebase develop`。会很苦，但是弄完会很有成就感，整个 branch commit history 会变成很乾净。请学 `interactive mode`，可以让你拿掉一些 commit丶合并或修改，你也可以 rebase 多次直到满意为止。
-      1. 在从 develop bracnh 做 `git merge feature/some_awesome_feature －no-ff`，－no-ff 的意思是会强制留一个 `merge commit log` 记录，这可以让 `commit tree` 看清楚发生了 merge 动作。(因为我们刚做了 rebase，而 git 预设的合并模式是 fast-forward，所以如果不加 －no-ff 是不会有 merge commit 的) 这个 merge commit 的另一个额外方便之处是，如果想要 reset/revert 整个 branch 只要 reset/revert 这个 commit 就可以了。
-      1. 如果此 feature branch 有 remote branch，要先砍掉 `git push origin :feature/some_awesome_feature` 再 `git push origin develop` (这是因为 rebase 一个已经 push 出去的 repository，然后又把修改的 history push 出去，会造成超级大灾难啊~)
-
+      1. 先对 `feature branch` 做 `git rebase develop`。会很苦，但是弄完会很有成就感，整个 `branch commit history` 会变成很乾净。请学 `interactive mode`，可以让你拿掉一些 commit 合并或修改，你也可以 rebase 多次直到满意为止。
+      1. 在从 develop bracnh 做 `git merge feature/some_awesome_feature －no-ff`，－no-ff 的意思是会强制留一个 `merge commit log` 记录，这可以让 `commit tree` 看清楚发生了 `merge` 动作。(因为我们刚做了 rebase，而 git 预设的合并模式是 fast-forward，所以如果不加 －no-ff 是不会有 merge commit 的) 这个 merge commit 的另一个额外方便之处是，如果想要 reset/revert 整个 branch 只要 reset/revert 这个 commit 就可以了。  
+      1. (__此条十分重要__)如果此 feature branch 有 remote branch，要先删除对应的远程分支，或者直接强推覆盖远程分支。 再 `git push origin develop` (这是因为 rebase 一个已经 push 出去的 repository，然后又把修改的 history push 出去，会造成超级大灾难啊~)    
     - 先 rebase 再 merge －no-ff 这样做的好处到底是什么? 看图体会一下吧：
     ![commit tree 图](/resources/image/git-branch1.jpg)  
     每一次的 merge 就代表了一个 feature 完成，也可以很清楚看到这个 feature branch 底下包含哪些 commit。

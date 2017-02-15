@@ -26,11 +26,15 @@
   - Markdown
     - [markdown简明教程](zh_cn/ProgramingLanguage/markdown/markdown.md)
     - [Cmd Markdown 编辑阅读器](zh_cn/ProgramingLanguage/markdown/Cmd Markdown.md)
+  - YAML
+    - [YAML 语言介绍](zh_cn/ProgramingLanguage/YAML/YAML.md)
 * 杂记
   - git  
     - [Git flow 开发流程](zh_cn/miscellanea/git/git_flow.md)  
     - [使用git rebase合并代码](zh_cn/miscellanea/git/git_rebase.md)  
     - [使用git rebase删除指定多个commit，实现错误代码剔除](zh_cn/miscellanea/git/git_rebase_i.md)  
+    - [Git cherry-pick 单独提交一个或多个commit](zh_cn/miscellanea/git/git_cherry_pick.md)
+    - [git revert 用一个新提交来消除一个历史提交所做的任何修改](zh_cn/miscellanea/git/git_revert.md)
   - [sublime text3 个人配置](zh_cn/miscellanea/sublime_text3_config.md)
   - [买到树莓派后应该做什么](zh_cn/miscellanea/RaspberryPi/first.md)
   - [使用树莓派建立家庭NAS](zh_cn/miscellanea/RaspberryPi/nas.md)
